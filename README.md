@@ -1,1 +1,1 @@
-This project is a personal website to find my informations and personal projects in one place for future purposes.
+This project is a website for a cosmetician to inform people and invite new clients.
