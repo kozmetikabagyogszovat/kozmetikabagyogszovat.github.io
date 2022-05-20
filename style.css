@@ -1,0 +1,334 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* Header CSS */
+#header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/fák.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+.user-box{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.user-box img{
+    border-radius: 50%;
+    width: 70%;
+    border: 2px solid #78C0A8;
+}
+
+.user-box h1{
+    color:#fff;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.user-box p{
+    color:#fff;
+    font-size: 20px;
+}
+.scroll-btn{
+    bottom:30px;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    border: 2px solid #fff;
+    padding: 10px 10px 20px;
+    border-radius: 30px;
+}
+.scroll-bar span{
+    border: 2px solid #fff;
+    font-size: 10px;
+    border-radius: 30px;
+}
+
+.scroll-bar {
+    animation: MoveUpDown 1s linear infinite;
+    left: 0;
+    bottom: 0;
+}
+  
+@keyframes MoveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+/* About */
+.about{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+#carouselControls {
+    border: 12px solid #78C0A8;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 60%;
+    margin:auto;
+}
+
+#carouselControls img {
+    border-radius: 10px;
+}
+
+.nav-bar{
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+
+.navbar{
+    background-color: #78C0A8;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    float: right;
+    text-align: right;
+}
+
+.nav-link{
+    color: #fff !important;
+}
+
+.nav-link:hover{
+    color: #000 !important;
+}
+
+.navbar-brand img{
+    height: 50px;
+    border-radius: 20px;
+}
+
+.nav-bar .fa-bars{
+    font-size: 35px;
+    color: #fff;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+.skills-bar p{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.progress{
+    border-radius: 16px !important;
+    margin-bottom: 10px;
+}
+
+.progress-bar{
+    border-radius: 16px;
+    background-color: #000 !important;
+}
+
+#skills h3{
+    margin-bottom: 20px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+/* Quote */
+blockquote{
+    font-size: 1.4em;
+    font-family:Open Sans;
+    font-style:italic;
+    color: #555555;
+    padding:1.2em 30px 1.2em 75px;
+    border-left:8px solid #78C0A8 ;
+    line-height:1.6;
+    position: relative;
+    background:#EDEDED;
+  }
+  
+  blockquote::before{
+    font-family:Arial;
+    content: "\201C";
+    color:#78C0A8;
+    font-size:4em;
+    position: absolute;
+    left: 10px;
+    top: -50px;
+  }
+  
+  blockquote::after{
+    content: '';
+  }
+
+/* Services */
+
+.services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.services h1{
+    margin-bottom: 15px;
+}
+
+.services-box{
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-top: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.services-box .fa{
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.services-box span{
+    margin: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.services-box p{
+    font-size: 15px;
+    margin-top: 20px;
+    color: #777;
+    margin-left: 3px;
+}
+
+.services-box:hover{
+    background-color: #78C0A8;
+    color: #fff;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: 1s;
+}
+
+.services-box:hover p{
+    color: #fff;
+}
+
+/* Prices */
+
+.prices{
+    padding-top:50px;
+    padding-bottom: 30px;
+    background: #f9f9f9;
+    color: #000;
+}
+
+.prices h3{
+    margin-bottom:50px;
+}
+
+.prices .btn{
+    padding: 10px 25px;
+    margin: 5px;
+    border-radius: 30px;
+    border: 2px solid #000;
+    background: transparent;
+    font-size: 20px;
+}
+
+.prices .btn:focus{
+    box-shadow: none !important;
+}
+
+.prices .btn:hover{
+    border: 2px solid #fff !important;
+    background: #78C0A8 !important;
+    color: #fff !important;
+    transition: 0.6s;
+}
+
+.prices .btn .fa {
+    margin-right: 10px;
+}
+
+/* Contact */
+
+.contact{
+    padding-top: 50px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/fák.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.contact .row {
+    padding: 30px 0;
+    font-size: 22px;
+}
+
+.contact .col-md-4 .fa{
+    padding: 10px;
+    font-size: 40px;
+}
+
+.contact .btn{
+    padding: 10px 25px;
+    margin: 5px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background: transparent;
+    font-size: 20px;
+}
+
+.contact .btn:focus{
+    box-shadow: none !important;
+}
+
+.contact .btn:hover{
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    transition: 0.6s;
+}
+
+.contact .btn .fa {
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 1400px) {
+    #carouselControls {
+        width:80%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #carouselControls {
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #carouselControls {
+        margin-top: 150px !important;
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #carouselControls {
+        margin-top: 10px !important;
+        width:90%;
+    }
+    .user-box img{
+        width:78%;
+    }
+}
