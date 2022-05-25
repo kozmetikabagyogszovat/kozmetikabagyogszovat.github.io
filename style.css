@@ -6,8 +6,9 @@ body{
 /* Header CSS */
 #header{
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/fák.jpg);
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/csipke2.jpg);
     background-position: center;
+    background-size: cover;
     background-attachment: fixed;
 }
 .user-box{
@@ -265,7 +266,7 @@ blockquote{
 
 .contact{
     padding-top: 50px;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/fák.jpg);
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/csipke2.jpg);
     background-position: center;
     background-attachment: fixed;
     color: #fff;
