@@ -66,7 +66,7 @@ body{
 
 /* About */
 .about{
-    padding-top: 100px;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 
@@ -75,7 +75,7 @@ body{
     border-radius: 25px;
     margin-top: 30px;
     margin-bottom: 20px;
-    width: 60%;
+    width: 40%;
     margin:auto;
 }
 
@@ -306,7 +306,7 @@ blockquote{
     margin-right: 10px;
 }
 
-@media only screen and (max-width: 1400px) {
+/* @media only screen and (max-width: 1400px) {
     #carouselControls {
         width:80%;
     }
@@ -323,13 +323,13 @@ blockquote{
         margin-top: 150px !important;
         width:100%;
     }
-}
+} */
 
 @media only screen and (max-width: 767px) {
     #carouselControls {
         margin-top: 10px !important;
         width:90%;
-    }
+    } 
     .user-box img{
         width:78%;
     }
